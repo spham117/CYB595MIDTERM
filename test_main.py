@@ -12,7 +12,7 @@ def test_subtract():
 
 
 def test_multiply():
-    assert multiply(2, 3) == 6
+    assert multiply(2, 5) == 10
 
 
 def test_divide():
