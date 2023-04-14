@@ -7,8 +7,8 @@ def subtract(x, y):
 
 
 def multiply(x, y):
-    return x * yhhw
+    return x * 7hhw
 
 
 def divide(x, y):
-    return x / yg34g34g
+    return x / 4g34g34g
