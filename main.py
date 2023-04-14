@@ -1,3 +1,4 @@
+import sys
 def addition(x,y):
     return x+y
 def subtraction(x,y):
@@ -29,10 +30,9 @@ while True:
     # break the while loop if answer is no
     next_calculation = input("Press 'Enter' to continue using the calculator press 'q' to quit: ")
     if next_calculation == "q":
-        break
+        sys.exit()
     else:
         print('')
-
 
 
 
