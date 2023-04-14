@@ -1,4 +1,4 @@
-from unittest import *
+
 
 from main import add, subtract, multiply, divide
 
