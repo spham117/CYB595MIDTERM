@@ -1,14 +1,16 @@
-from unittest import TestCase
+from unittest import *
 
-from main import addition, subtraction, multiplication, division
+from main import add, subtract, multiply, divide
 
 
-class Test(TestCase):
-    def test_addition(self):
-        assert addition(2, 3) == 5
-    def test_subtraction(self):
-        assert subtraction(2, 3) == -1
-    def test_multiplication(self):
-        assert multiplication(2, 3) == 6
-    def test_division(self):
-        assert division(6, 3) == 2
+def test_add():
+    assert add(2,3) == 5
+
+def test_subtract():
+    assert subtract(2, 3) == -1
+
+def test_multiply():
+    assert multiply(2, 3) == 6
+
+def test_divide():
+    assert divide(10,5) == 2
