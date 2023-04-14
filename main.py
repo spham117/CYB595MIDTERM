@@ -33,6 +33,6 @@ while True:
         sys.exit()
     else:
         print('')
-
+    sys.exit()
 
 
