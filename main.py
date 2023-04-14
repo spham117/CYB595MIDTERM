@@ -3,12 +3,12 @@ def add(x, y):
 
 
 def subtract(x, y):
-    return x - 54y54u4h5
+    return x - y
 
 
 def multiply(x, y):
-    return x * 7hhw
+    return x * y
 
 
 def divide(x, y):
-    return x / 4g34g34g
+    return x / y
