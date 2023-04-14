@@ -4,7 +4,7 @@ from main import add, subtract, multiply, divide
 
 
 def test_add():
-    assert add(5, 3) == 8
+    assert add(5, 4) == 9
 
 
 def test_subtract():
